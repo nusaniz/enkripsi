@@ -1,0 +1,15 @@
+bikin file crt, key, dan csr
+https://en.rakko.tools/tools/46/
+
+converter
+https://www.sslshopper.com/ssl-converter.html
+
+instal openssl
+- https://slproweb.com/products/Win32OpenSSL.html
+- masukin folder bin C:\Program Files\OpenSSL-Win64\bin --> ke cari di windows search "env" atau "system environment variable"
+- paste directory bin openssl ke bagian "Path" tabg "system"
+referensi https://www.ryadel.com/en/openssl-convert-ssl-certificates-pem-crt-cer-pfx-p12-linux-windows/#Installing_OpenSSL
+
+sytax openssl
+- bikin pfx/p12 --> openssl pkcs12 -export -in code.crt -inkey code.key -out code.p12
+- lihat isi file --> openssl x509 -text -noout -in code.p12
