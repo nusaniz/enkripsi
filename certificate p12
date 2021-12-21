@@ -14,3 +14,5 @@ sytax openssl
 - bikin pfx/p12 --> openssl pkcs12 -export -in code.crt -inkey code.key -out code.p12
   - atau bisa menggunakan software "wondershare pdf element pro 7.4 / 8.0"
 - lihat isi file --> openssl x509 -text -noout -in code.p12
+
+masukin .p12 ke C:\Users\User\AppData\Roaming\Wondershare\PDFelement 7\Security
